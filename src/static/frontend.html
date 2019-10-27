@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frontend</title>
+</head>
+
+<body>
+    <h1>Frontend</h1>
+    <p>This example demonstrates the result of using PDF.js in a HTML website.</p>
+    <input type="file" id="file"><br>
+    <canvas id="pdf"></canvas>
+    <script src="pdf.min.js"></script>
+    <script src="frontend.js"></script>
+    <script>
+        new frontend(document.getElementById('file'), document.getElementById('pdf'));
+    </script>
+</body>
+
+</html>
