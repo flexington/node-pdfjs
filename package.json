@@ -29,7 +29,7 @@
     "cors": "2.8.5",
     "express": "4.17.1",
     "pdfjs-dist": "2.2.228",
-    "jquery": "3.4.1"
+    "jquery": "3.5.0"
   },
   "devDependencies": {
     "@types/body-parser": "1.17.1",
